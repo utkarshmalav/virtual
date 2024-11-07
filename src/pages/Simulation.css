@@ -1,0 +1,115 @@
+/* Main container for simulation */
+.simulation-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100vh;
+    padding: 20px;
+    background-color: #f9fafb;
+    font-family: 'Arial', sans-serif;
+    gap: 20px; /* Add gap between sections */
+  }
+  
+  /* Input section styling */
+  .input-section {
+    width: 30%;
+    background-color: #e3f2fd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+  }
+  
+  .input-section h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #007bff;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  input[type="text"], textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  .execute-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .execute-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Steps to execution section styling */
+  .steps-section {
+    width: 30%;
+    background-color: #ffebee;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+  }
+  
+  .steps-section h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #d32f2f;
+  }
+  
+  .steps-section p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  /* Output section styling */
+  .output-section {
+    width: 30%;
+    background-color: #e8f5e9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .output-section h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #388e3c;
+  }
+  
+  .result-box {
+    padding: 20px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .result-box p {
+    font-size: 16px;
+    color: #333;
+  }
+  

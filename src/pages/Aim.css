@@ -1,0 +1,50 @@
+/* src/Aim.css */
+.aim-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .aim-heading {
+    color: #007bff; 
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .aim-description {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+
+  /* src/Theory.css */
+.theory-container {
+    padding: 40px;
+   
+    text-align: justify;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+  }
+  
+  .theory-heading {
+    color: #007bff; 
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .theory-list {
+    margin: 20px 0;
+    padding-left: 20px;
+    list-style: decimal inside;
+    line-height: 1.8;
+  }
+  
+  .theory-container p {
+    margin: 10px 0;
+    line-height: 1.6;
+  }
+  
+  
